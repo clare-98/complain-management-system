@@ -1,0 +1,32 @@
+<html>
+<head>
+    <link href="style2.css" type="text/css" rel="stylesheet">
+       <title>comment section</title> 
+</head>
+<body>
+
+<h2>Please share your complain by filling the form below.</h2>
+
+<div class="container">
+  <form action="connect.php" method="POST">
+  <div class="row">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="Name" placeholder="Your name..">
+  </div>
+  <div class="row">
+      <label for="email">Email:</label>
+        <input type="text" id="email" name="Email" placeholder="Your email address..">
+      </div>
+  <div class="row">
+      <label for="subject">Complain:</label>
+      <textarea id="comment" name="Complain" placeholder="Write something.." style="height:200px"></textarea>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Post">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>
